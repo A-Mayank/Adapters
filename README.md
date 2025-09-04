@@ -1,7 +1,7 @@
 # Adapters
 ADPTER TRAINING GUIDE
 
-================================================================================
+===========================================================================
 
 THIS FILE WILL HELP TO UNDERSTAND THE PROCESS OF TRAINING AND EVALUATING AN ADAPTER.
 
