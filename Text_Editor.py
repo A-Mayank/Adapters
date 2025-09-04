@@ -1,9 +1,8 @@
 import os
 import re
 
-# 📁 Path to your folder with .txt files
-folder_path = r"E:\Research\marathi_unlabelled"  # <-- change this
-output_file = r"E:\Research\marathi_unlabelled\marathi_unalabelled.txt"
+folder_path = r"directory_path"  
+output_file = r"directory_path"
 
 
 def clean_text(text):
@@ -18,8 +17,6 @@ def clean_text(text):
 
     return text
 
-
-# 🔄 Read all .txt files and combine
 combined_text = ""
 for filename in sorted(os.listdir(folder_path)):
     if filename.endswith(".txt"):
